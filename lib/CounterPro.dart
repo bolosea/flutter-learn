@@ -21,7 +21,7 @@ class CounterAdd extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    return RaisedButton(onPressed: add,child: Text('add pro'));
+    return RaisedButton(onPressed: add,child: Text('addd pro'));
   }
 }
 
