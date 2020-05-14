@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 class MyContainer extends StatelessWidget {
@@ -13,6 +15,10 @@ class MyContainer extends StatelessWidget {
       margin: EdgeInsets.all(0),
       width: 150,
       height: 150,
+      child: Text(
+        "a",
+          textDirection: TextDirection.rtl,
+      ),
     ));
   }
 }
